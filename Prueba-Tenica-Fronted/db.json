@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Test",
+      "email": "admin@test.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@test.com",
+      "password": "password123",
+      "role": "employee"
+    }
+  ],
+  "assets": [
+    {
+      "id": 1,
+      "name": "Laptop Pro 15\\\"",
+      "model": "Apple M3 Pro",
+      "status": "assigned",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "name": "Monitor Curvo 27\\\"",
+      "model": "Samsung Odyssey G5",
+      "status": "available",
+      "userId": null
+    },
+    {
+      "id": 3,
+      "name": "Silla Ergon\u00f3mica",
+      "model": "Herman Miller Aeron",
+      "status": "maintenance",
+      "userId": null
+    },
+    {
+      "id": 4,
+      "name": "Teclado Mec\u00e1nico",
+      "model": "Keychron Q1",
+      "status": "assigned",
+      "userId": 1
+    }
+  ]
+}
